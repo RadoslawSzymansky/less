@@ -1,0 +1,21 @@
+.body {
+    background-color: #fff;
+}
+
+p {
+    background-attachment: fixed;
+}
+
+p {
+    &__color {
+        background-color: #fff;
+    }
+}
+
+
+@min768: ~"(min-width: 768px)";
+.element {
+  @media @min768 {
+    font-size: 1.2rem;
+  }
+}

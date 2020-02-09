@@ -1,0 +1,12 @@
+body {
+  background-color: #451;
+}
+.mixin {
+  background-color: green;
+}
+body {
+  background-color: green;
+}
+.div .auto {
+  color: red;
+}

@@ -1,0 +1,14 @@
+.body {
+  background-color: #fff;
+}
+p {
+  background-attachment: fixed;
+}
+p__color {
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .element {
+    font-size: 1.2rem;
+  }
+}

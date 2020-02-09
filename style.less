@@ -1,0 +1,38 @@
+@base: #451;
+// @url = 'http://burczu-programator.pl';
+
+body {
+    background-color: @base;
+}
+
+
+
+div.cos {
+    // background-image: url("@{url}/img/bckg.png");
+
+}
+
+
+.mixin {
+    background-color: green;
+}
+
+#defaults {
+    .background ( @color: #DEDEDE ) {
+      background-color: @color;
+    }
+}
+
+
+
+body {
+    .mixin
+}
+
+@name_uppercase: ‘”burczu”.toUpperCase()’;
+
+.div {
+    .auto {
+        color: red;
+    }
+}
